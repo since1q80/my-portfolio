@@ -8,7 +8,13 @@
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/uikit.js"></script>
     <script src="js/uikit-icons.js"></script>
-
+    <script type="module">
+        import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+        Chatbot.init({
+            chatflowid: "2cd0be69-4490-40e9-8d29-674ef1bfc599",
+            apiHost: "https://flowise-1ylf.onrender.com",
+        })
+    </script>
     <title>Portfolio</title>
 </head>
 <body>
